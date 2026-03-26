@@ -15,4 +15,21 @@ public class ListaEnlazada {
             aux.setSiguiente(new Nodo (dato));
         }
     }
+    @Override
+    public String toString (){
+        String str = "[";
+        Nodo aux = cabeza;
+        
+        if (aux == null){
+            return "Lista Vacia";
+        }
+        do{
+            str += aux;
+            aux = aux.getSiguiente();
+            if (aux != null){
+                str += ", ";
+            }
+        }while (aux != null);
+        return str + "]";
+    }
 }

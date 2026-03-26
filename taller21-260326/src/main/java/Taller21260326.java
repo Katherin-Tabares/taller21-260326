@@ -8,14 +8,18 @@ public class Taller21260326 {
         int n, m;
         System.out.println("Ingrese un numero entero");
         n=scn.nextInt();
-        ListaEnlazada lis = new ListaEnlazada();
-        for (int i=0; i<=n-1; i++){
-            m=scn.nextInt();
-            if (m>n){
-                i--;
-            }else{
-                lis.agregar(m);
+        if (2<= n){
+            ListaEnlazada lis = new ListaEnlazada();
+            System.out.println("Ingresa los numeros de la lista");
+            for (int i=0; i<=n-1; i++){
+                m=scn.nextInt();
+                if (m>n){
+                    i--;
+                }else{
+                    lis.agregar(m);
+                }
             }
+            System.out.println(lis); //muetra la lista
         }
     }
 }
