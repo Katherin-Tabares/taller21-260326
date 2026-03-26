@@ -24,7 +24,7 @@ public class ListaEnlazada {
             return "Lista Vacia";
         }
         do{
-            str += aux;
+            str += aux.getDato();
             aux = aux.getSiguiente();
             if (aux != null){
                 str += ", ";

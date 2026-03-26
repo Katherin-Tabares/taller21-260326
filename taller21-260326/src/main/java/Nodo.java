@@ -17,7 +17,7 @@ public class Nodo {
         return siguiente;
     }
     public void setSiguiente (Nodo sig){
-        this.dato = dato;
+        this.siguiente = sig;
     }
     
     @Override
