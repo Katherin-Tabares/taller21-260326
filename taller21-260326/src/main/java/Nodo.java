@@ -13,6 +13,12 @@ public class Nodo {
     public void setDato (int dato){
         this.dato = dato;
     }
+     public Nodo getSiguiente(){
+        return siguiente;
+    }
+    public void setSiguiente (Nodo sig){
+        this.dato = dato;
+    }
     
     @Override
     public String toString(){
