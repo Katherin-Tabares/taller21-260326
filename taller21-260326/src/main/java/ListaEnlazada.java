@@ -8,12 +8,14 @@ public class ListaEnlazada {
         Nodo nuevo = new Nodo (dato);
         if (cabeza == null){
             cabeza = nuevo;
+        }else {
+            Nodo aux = cabeza;
+            while (aux.getSiguiente() != null){
+                aux = aux.getSiguiente();
+            } 
+            aux.setSiguiente(nuevo);
         }
-        Nodo aux = cabeza;
-        while (aux.getSiguiente() != null){
-            aux = aux.getSiguiente();
-            aux.setSiguiente(new Nodo (dato));
-        }
+        
     }
     @Override
     public String toString (){
