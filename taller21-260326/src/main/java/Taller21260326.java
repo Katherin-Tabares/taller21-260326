@@ -25,8 +25,7 @@ public class Taller21260326 {
             
             //mostrar el faltante
             for(int i=1; i<=n; i++){
-                if(lis.numFaltante(i)){
-                //muestra el numero que no aparece en la lista
+                if(!lis.numFaltante(i)){
                 System.out.println(i);
                 }
             }
