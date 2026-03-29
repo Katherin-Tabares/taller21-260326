@@ -24,6 +24,12 @@ public class Taller21260326 {
             System.out.println(lis); //muetra la lista
             
             //mostrar el faltante
+            for(int i=1; i<=n; i++){
+                /*if(buscar el numero que falta){
+                //muestra el numero que no aparece en la lista
+                System.out.println(i);
+                }*/
+            }
         }
     }
 }

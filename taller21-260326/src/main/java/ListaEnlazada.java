@@ -17,6 +17,12 @@ public class ListaEnlazada {
         }
         
     }
+    
+    public boolean numFaltante (int dato){
+        
+    return true;
+    }
+    
     @Override
     public String toString (){
         String str = "[";
