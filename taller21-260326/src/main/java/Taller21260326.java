@@ -15,11 +15,17 @@ public class Taller21260326 {
             System.out.println("Ingresa los numeros de la lista");
             for (int i=0; i<n-1; i++){
                 m=scn.nextInt();
-                if (m<=n){
-                    lis.agregar(m);
-                }else{
-                    i--;
-                }
+                
+                for(int j=1; j<=i; j++){
+                    if(!lis.numFaltante(j)){
+                        if (m<=n){
+                            lis.agregar(m);
+                        }else{
+                            i--;
+                        }
+                    }
+                }   
+                
             }
             System.out.println(lis); //muetra la lista
             
