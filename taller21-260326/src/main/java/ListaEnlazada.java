@@ -20,8 +20,10 @@ public class ListaEnlazada {
     
     public boolean numFaltante (int d){
         Nodo aux = cabeza;
-        if(aux.getDato() == d){
-            return true;
+        while (aux != null){
+            if(aux.getDato() == d){
+                return true;
+            }
         }
         return false;
     }
