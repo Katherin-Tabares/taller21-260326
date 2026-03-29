@@ -24,6 +24,7 @@ public class ListaEnlazada {
             if(aux.getDato() == d){
                 return true;
             }
+            aux = aux.getSiguiente();
         }
         return false;
     }
