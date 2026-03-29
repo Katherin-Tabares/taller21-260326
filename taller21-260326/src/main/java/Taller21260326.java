@@ -13,7 +13,7 @@ public class Taller21260326 {
         n=scn.nextInt();
         if (2<= n){
             System.out.println("Ingresa los numeros de la lista");
-            for (int i=0; i<n; i++){
+            for (int i=0; i<n-1; i++){
                 m=scn.nextInt();
                 if (m<=n){
                     lis.agregar(m);
@@ -22,6 +22,8 @@ public class Taller21260326 {
                 }
             }
             System.out.println(lis); //muetra la lista
+            
+            //mostrar el faltante
         }
     }
 }
