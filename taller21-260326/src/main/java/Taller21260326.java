@@ -23,6 +23,8 @@ public class Taller21260326 {
                         }else{
                             i--;
                         }
+                    }else{
+                        i--;
                     }
                 }   
                 
