@@ -25,10 +25,10 @@ public class Taller21260326 {
             
             //mostrar el faltante
             for(int i=1; i<=n; i++){
-                /*if(buscar el numero que falta){
+                if(lis.numFaltante(i)){
                 //muestra el numero que no aparece en la lista
                 System.out.println(i);
-                }*/
+                }
             }
         }
     }

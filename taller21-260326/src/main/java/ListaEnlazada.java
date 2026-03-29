@@ -18,9 +18,12 @@ public class ListaEnlazada {
         
     }
     
-    public boolean numFaltante (int dato){
-        
-    return true;
+    public boolean numFaltante (int d){
+        Nodo aux = cabeza;
+        if(aux.getDato() == d){
+            return true;
+        }
+        return false;
     }
     
     @Override
